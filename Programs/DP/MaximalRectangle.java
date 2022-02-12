@@ -36,6 +36,7 @@ public class MyClass {
                     // n=2&&n<3
                     for(int n=j; n<l; n++) {
                         if(nums[m][n] == 0) {
+                            // This is important to understand that column should be changed and not the row.
                             l = n;
                             break;
                         }
